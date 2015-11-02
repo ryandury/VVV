@@ -797,20 +797,9 @@ echo "Installing/updating wp-cli and debugging tools"
 
 wp_cli
 memcached_admin
-opcached_status
-webgrind_install
-php_codesniff
 phpmyadmin_setup
 
 network_check
-# Time for WordPress!
-echo " "
-echo "Installing/updating WordPress Stable, Trunk & Develop"
-
-wordpress_default
-wpsvn_check
-wordpress_trunk
-wordpress_develop
 
 # VVV custom site import
 echo " "
